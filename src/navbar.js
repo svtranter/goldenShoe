@@ -41,7 +41,7 @@ function NavBar(props) {
               <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
             </Nav>
             <Nav>
-                <ShoppingCart items={props.basketItems}/>
+                <ShoppingCart items={props.cart} remove={props.remove}/>
             </Nav>
           </Navbar.Collapse>
         </Container>
