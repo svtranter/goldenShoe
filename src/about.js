@@ -8,6 +8,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem";
 
 function About() {
+    //Page about the company
     return (
         <Container>
             <br/>
@@ -67,7 +68,7 @@ function About() {
                     <Card.Text>
                         Having a issue? See if you can find the answer to your question on our FAQ page.
                     </Card.Text>
-                    <Button variant="danger">FAQ's</Button>
+                    <Button variant="danger" href="/faq">FAQ's</Button>
                     </Card.Body>
                     
                 </Card>

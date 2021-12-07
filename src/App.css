@@ -4,6 +4,10 @@
 
 }
 
+.productPage {
+  justify-content: center;
+}
+
 .contactUsIcons {
   font-size: xx-large;
   color: #d9534f;
@@ -23,4 +27,8 @@
 
 #gsName {
   color: 	#f7f7f7;
+}
+
+.productCard {
+  margin: 2px;
 }

@@ -11,6 +11,7 @@ import featuredShoes from "./featuredShoes.jpg";
 function Home(){
     return (
         <Container className="homePage">
+            {/* Carousel to show company logo and latest promotions */}
             <Carousel>
                 <Carousel.Item>
                     <img

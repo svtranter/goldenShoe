@@ -29,9 +29,11 @@ function NavBar(props) {
             <Nav className="me-auto">
               <Nav.Link as={Link} to="/">Home</Nav.Link>
               <NavDropdown title="Products" id="basic-nav-dropdown" text="faded">
+                {/* Dummy nav dropdown items for now */}
                 <NavDropdown.Item >Men</NavDropdown.Item>
                 <NavDropdown.Item >Women</NavDropdown.Item>
                 <NavDropdown.Divider />
+                {/* This one works */}
                 <NavDropdown.Item ><Nav.Link as={Link} to="/products" id="seeAll">See all products</Nav.Link></NavDropdown.Item>
               </NavDropdown>
               <Nav.Link as={Link} to="/about">About</Nav.Link>
@@ -41,7 +43,7 @@ function NavBar(props) {
               <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
             </Nav>
             <Nav>
-                <ShoppingCart items={props.basketItems}/>
+                <ShoppingCart cart={props.cart} removeFromCart={props.removeFromCart}/>
             </Nav>
           </Navbar.Collapse>
         </Container>

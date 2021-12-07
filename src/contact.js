@@ -9,6 +9,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem";
 
 function Contact() {
+    //Contact page
     return (
         <Container>
            <br/>
@@ -18,7 +19,7 @@ function Contact() {
                     <Card.Text>Please see our FAQ page for answers to commonly asked questions. Your solution may be a couple
                         of clicks away!
                     </Card.Text>
-                    <Button variant="danger">FAQ's</Button>
+                    <Button variant="danger" href="/faq">FAQ's</Button>
                 </Card.Body>
             </Card>
             <br/> 

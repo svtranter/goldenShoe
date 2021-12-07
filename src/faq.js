@@ -4,6 +4,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import Container from "react-bootstrap/Container";
 
 function FAQ() {
+    //FAQ page
     return (
         <Container>
             <br/>
